@@ -1,0 +1,30 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* VARIABLES */
+$white-color: #ffffff; 
+$black-color: #000000; 
+$background-color: hsl(210, 57%, 78%); 
+
+/* BASE */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BODY */
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+    overflow-x: hidden;
+}
+
+/* YIN AND YANG */
